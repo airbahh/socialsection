@@ -1,0 +1,123 @@
+:root{
+    --soft-pink:hsla(333, 80%, 67%, 0.548);
+    --purple: hsl(300, 43%, 22%);
+    --dark-gray-purple:hsl(303, 10%, 53%);
+    --light-grey-purple: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+
+    --bold: 700;
+    --medium: 500;
+    --light: 400;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'spartan', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: var(--medium);
+}
+
+
+
+body{
+    background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+    background-position: top, bottom;
+    background-repeat: no-repeat;
+}
+.container{
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+    row-gap: 60px;
+    margin-top: 4.5rem;
+}
+
+/* //hero section */
+
+h1{
+    font-size: 2rem;
+    letter-spacing: -2px;
+    padding: 0 1rem;
+    font-weight: var(--bold);
+    color: var(--purple);
+   
+}
+
+.hero p{
+    line-height: 150%;
+    padding-top: 2rem;
+    letter-spacing: -1px;
+    color: var(--dark-gray-purple);
+}
+
+/* //rating section */
+
+.rating{
+    display: grid;
+    row-gap: 18px;
+}
+
+.rating-box{
+    background-color: var(--light-grey-purple);
+    padding: 1rem;
+    border-radius: 10px;
+}
+.rating p{
+    font-weight: var(--bold);
+    color: var(--purple);
+    line-height: 2rem;
+}
+
+/* //comment section */
+
+.comment{
+    display: grid;
+    row-gap: 18px;
+    color: var(--white);
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+}
+
+h2{
+    font-size: 13px;
+    font-weight: var(--bold);
+    padding-left: 1rem;
+    text-align: start;
+}
+
+.comment p{
+    font-weight: var(--light);
+    font-size: 12px;
+    margin-top: 2rem;
+    line-height: 150%;
+    text-align: start;
+    letter-spacing: -1px;
+}
+
+.comment-box{
+    background-color: var(--purple);
+    border-radius: 10px;
+    padding: 2rem;
+}
+.comment-box img{
+    width: 40px;
+    border-radius: 50%;
+
+}
+
+
+
+span{
+    display: block;
+    font-weight: var(--light);
+    color: var(--soft-pink);
+    font-size: 13px;
+}
