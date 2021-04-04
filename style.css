@@ -128,13 +128,14 @@ span{
         background-repeat: no-repeat;
         display: flex;
         justify-content: center;
+        height: 100vh;
     }
     .container{
-        margin-top: 10rem;
+        margin-top: 9rem;
         grid-template-columns: 40% 40%;
         grid-template-rows: 260px 260px;
         max-width: 1440px;
-        height: 100vh;
+        max-height: 100vh;
     }
 
     .hero{
@@ -147,8 +148,9 @@ span{
         
     }
     h1{
-        font-size: 2.5rem;
+        font-size: 3rem;
         width: 60%;
+        line-height: 100%;
     }
     h2, span{
         font-size: 15px;
