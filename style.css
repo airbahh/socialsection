@@ -129,7 +129,7 @@ span{
     .container{
         margin-top: 6rem;
         grid-template-columns: 40% 40%;
-        grid-template-rows: 300px 260px;
+        grid-template-rows: 300px 250px;
         max-width: 1440px;
         min-height: 100vh;
     }
